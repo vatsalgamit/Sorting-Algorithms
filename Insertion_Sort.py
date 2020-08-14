@@ -5,6 +5,7 @@ def insertion_sort(my_list):
 		x = my_list[i]
 
 		while my_list[i-1]>x and i>0:
+			print('my_list',my_list)
 			my_list[i],my_list[i-1]=my_list[i-1],my_list[i]
 			i = i-1
 	return my_list
